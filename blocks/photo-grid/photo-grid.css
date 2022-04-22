@@ -1,0 +1,9 @@
+.photo-grid {
+    display: grid;
+    max-width: 1184px;
+    max-height: 671px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 213px);
+    gap: 16px;
+    margin: 92px auto 0 auto;
+}
