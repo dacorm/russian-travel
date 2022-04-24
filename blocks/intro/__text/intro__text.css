@@ -10,3 +10,9 @@
     color: #FFFFFF;
     margin: 0 0 33px 0;
 }
+
+@media screen and (max-width: 1023px) {
+    .intro__text {
+        margin: 0 24px 33px 24px;
+    }
+}

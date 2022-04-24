@@ -9,3 +9,13 @@
     color: #FFFFFF;
     margin: 0 40px 48px 0;
 }
+
+@media screen and (max-width: 1023px) {
+    .place__title {
+        width: 340px;
+        max-height: 92px;
+        font-size: 42px;
+        line-height: 46px;
+        margin: 0 28px 48px 24px;
+    }
+}

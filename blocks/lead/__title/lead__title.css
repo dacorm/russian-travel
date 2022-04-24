@@ -11,3 +11,9 @@
     color: #FFFFFF;
     margin: 56px auto 0 auto;
 }
+
+@media screen and (max-width: 1023px) {
+    .lead__title {
+        margin: 48px 24px 0 24px;
+    }
+}

@@ -5,3 +5,13 @@
     object-fit: cover;
     margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+    .place__image {
+        max-width: 340px;
+        width: 100%;
+        max-height: 340px;
+        object-fit: cover;
+        margin: 0 0 0 24px;
+    }
+}

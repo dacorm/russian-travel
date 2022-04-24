@@ -19,3 +19,12 @@
         padding-right: 48px;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        grid-template-rows: repeat(6, 264px);
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

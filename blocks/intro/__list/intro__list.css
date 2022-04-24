@@ -11,3 +11,9 @@
     line-height: 18px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1023px) {
+    .intro__list {
+        margin: 0 24px 0 24px;
+    }
+}

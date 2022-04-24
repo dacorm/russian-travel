@@ -18,3 +18,12 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        max-width: 768px;
+        height: 480px;
+        width: 100%;
+        margin-top: 90px;
+    }
+}

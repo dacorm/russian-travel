@@ -1,3 +1,9 @@
 .place__text-wrapper {
     height: 463px;
 }
+
+@media screen and (max-width: 1023px) {
+    .place__text-wrapper {
+        height: 500px;
+    }
+}

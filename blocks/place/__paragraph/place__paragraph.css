@@ -11,3 +11,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        max-width: 352px;
+        height: fit-content;
+        font-size: 16px;
+        margin: 48px 24px 25px 28px;
+    }
+}
