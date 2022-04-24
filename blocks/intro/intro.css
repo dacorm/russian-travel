@@ -1,5 +1,11 @@
 .intro {
     max-width: 690px;
     max-height: fit-content;
-    margin: 92px 0 0 0;
+    padding-top: 92px;
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        padding-top: 92px;
+    }
 }

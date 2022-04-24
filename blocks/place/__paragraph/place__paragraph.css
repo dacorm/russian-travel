@@ -12,11 +12,23 @@
     box-sizing: border-box;
 }
 
+.place__paragraph:nth-of-type(2n) {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         max-width: 352px;
         height: fit-content;
         font-size: 16px;
-        margin: 48px 24px 25px 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        max-width: 288px;
+        height: fit-content;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }

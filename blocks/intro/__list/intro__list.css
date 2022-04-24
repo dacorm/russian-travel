@@ -17,3 +17,12 @@
         margin: 0 24px 0 24px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .intro__list {
+        margin: 0 16px ;
+        max-width: 288px;
+        width: 100%;
+        height: 90px;
+    }
+}

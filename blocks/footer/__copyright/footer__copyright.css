@@ -10,3 +10,9 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        text-align: left;
+    }
+}
