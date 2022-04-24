@@ -1,6 +1,6 @@
 .place__link {
-    width: 456px;
-    height: 22px;
+    max-width: 456px;
+    max-height: 22px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

@@ -1,5 +1,11 @@
 .page {
     max-width: 1280px;
     font-family: 'Inter', sans-serif;
-    margin: 0 auto;
+    align-self: center;
+}
+
+@media screen and (min-width: 1281px) {
+    .page {
+        margin: 0 auto;
+    }
 }

@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 1184px;
+    max-width: 1184px;
     height: 740px;
     background-image: url("../../images/cover-trains.jpg");
     background-size: cover;
@@ -10,4 +10,11 @@
     margin: 92px 48px 0 48px;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        margin: 92px 0 0 0;
+        width: 100%;
+    }
 }

@@ -1,4 +1,5 @@
 .place__left {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
 }

@@ -1,5 +1,6 @@
 .places {
     max-width: 984px;
-    max-height: 4000px;
-    margin: 92px auto 0 auto;
+    height: max-content;
+    margin: 0 auto;
+    padding-top: 92px;
 }
