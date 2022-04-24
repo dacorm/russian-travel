@@ -12,6 +12,7 @@
     grid-template-columns: repeat(2, 460px);
     grid-template-rows: repeat(2fr, 460px);
     gap: 40px;
+    padding-top: 80px;
 }
 
 @media screen and (max-width: 1279px)  {
@@ -19,6 +20,7 @@
         grid-template-columns: repeat(2, 440px);
         grid-template-rows: repeat(2fr, 440px);
         gap: 32px;
+
     }
 }
 
@@ -28,6 +30,7 @@
         grid-template-rows: repeat(2fr, 340px);
         gap: 28px;
         padding-left: 24px;
+        padding-top: 73px;
     }
 }
 
@@ -36,5 +39,6 @@
         grid: 600px auto / 1fr;
         grid-template-rows: 1fr;
         padding-left: 0;
+        padding-top: 50px;
     }
 }
