@@ -10,6 +10,8 @@
     margin: 92px 48px 0 48px;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: #000;
 }
 
 .cover:hover .cover__overlay {
