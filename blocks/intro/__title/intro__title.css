@@ -27,3 +27,9 @@
         margin: 0 16px 40px 16px;
     }
 }
+
+@media screen and (min-width: 321px) {
+    .intro__title {
+        max-width: 690px;
+    }
+}

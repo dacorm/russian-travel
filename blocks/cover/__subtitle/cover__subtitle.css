@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: center;
     z-index: 2;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 767px) {

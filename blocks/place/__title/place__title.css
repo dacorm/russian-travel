@@ -28,3 +28,10 @@
         margin: 0 16px 0 16px;
     }
 }
+
+@media screen and (min-width: 321px) {
+    .place__title {
+        max-width: 460px;
+        max-height: 152px;
+    }
+}

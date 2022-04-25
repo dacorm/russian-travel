@@ -22,3 +22,10 @@
         margin: 16px 16px 40px 16px;
     }
 }
+
+@media screen and (min-width: 321px) {
+    .lead__subtitle {
+        max-width: 640px;
+        margin: 32px auto 40px auto;
+    }
+}

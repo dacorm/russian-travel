@@ -12,6 +12,11 @@
     justify-content: center;
 }
 
+.cover:hover .cover__overlay {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1279px) {
     .cover {
         margin: 92px 0 0 0;
@@ -33,5 +38,17 @@
         max-width: 320px;
         height: 200px;
         margin-top: 66px;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .cover {
+        max-width: 1184px;
+    }
+}
+
+@media screen and (min-width: 643px) {
+    .cover {
+        min-height: 480px
     }
 }

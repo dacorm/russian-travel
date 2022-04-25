@@ -23,3 +23,28 @@
         margin: 0;
     }
 }
+
+@media screen and (min-width: 321px) {
+    .lead__image {
+        max-width: 984px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .lead__image {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .lead__image {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lead__image {
+        height: 480px;
+    }
+}

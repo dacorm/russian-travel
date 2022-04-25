@@ -32,3 +32,13 @@
         margin-right: 16px;
     }
 }
+
+@media screen and (min-width: 321px) {
+    .place__paragraph {
+        max-width: 484px;
+        width: 100%;
+        height: fit-content;
+        padding: 0 16px;
+        margin: 0;
+    }
+}

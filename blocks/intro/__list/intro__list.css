@@ -26,3 +26,9 @@
         height: 90px;
     }
 }
+
+@media screen and (min-width: 321px) {
+    .intro__list {
+        max-width: 690px;
+    }
+}

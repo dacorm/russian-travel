@@ -18,3 +18,9 @@
         margin: 16px 16px 0 16px;
     }
 }
+
+@media screen and (min-width: 321px) {
+    .header {
+        max-width: 1184px;
+    }
+}

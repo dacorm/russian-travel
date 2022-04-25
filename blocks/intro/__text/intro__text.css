@@ -25,3 +25,11 @@
         margin: 0 16px 34px 16px;
     }
 }
+
+@media screen and (min-width: 425px) {
+    .intro__text {
+        max-width: 690px;
+        width: fit-content;
+        height: fit-content;
+    }
+}

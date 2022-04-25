@@ -13,8 +13,14 @@
 
 }
 
+.place__link:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 767px) {
     .place__link {
         margin-left: 16px;
     }
 }
+
