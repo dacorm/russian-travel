@@ -5,7 +5,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
-@import url(../blocks/header/__lang-link/_line/lang-link_line_undeline.css);
+@import url(../blocks/header/__lang-link/_line/header__lang-link_line_undeline.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
