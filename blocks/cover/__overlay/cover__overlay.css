@@ -7,3 +7,8 @@
     background: #2A2C2F;
     opacity: .3;
 }
+
+.cover:hover .cover__overlay {
+    opacity: 0.8;
+    cursor: pointer;
+}

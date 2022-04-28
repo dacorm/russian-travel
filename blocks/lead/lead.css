@@ -5,19 +5,17 @@
     padding-top: 56px;
     padding-left: 48px;
     padding-right: 48px;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
         padding-top: 48px;
-        margin: 0;
     }
 }
 
-@media screen and (max-width: 1023px) {
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .lead {
-        margin: 0;
-        padding: 0;
+        padding: 48px 0 0 0;
     }
 }

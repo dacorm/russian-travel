@@ -1,6 +1,6 @@
 .place__paragraph {
-    max-width: 484px;
-    font-family: 'Inter';
+    height: fit-content;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 
 .place__paragraph:nth-of-type(2n) {
     margin-bottom: 0;
@@ -30,11 +31,10 @@
     }
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
     .place__paragraph {
         max-width: 484px;
         width: 100%;
-        padding: 0 16px;
-        margin: 0;
+        margin: 0 auto 26px auto;
     }
 }

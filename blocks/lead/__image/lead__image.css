@@ -1,10 +1,7 @@
 .lead__image {
     max-width: 984px;
     width: 100%;
-    height: 615px;
-    background-image: url("../../../images/lead-polka.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-fit: cover;
     margin: 64px 0 0 0;
 }
 
@@ -12,7 +9,6 @@
     .lead__image {
         max-width: 928px;
         height: 580px;
-        margin: 64px 0 0 0;
     }
 }
 
@@ -27,7 +23,6 @@
 @media screen and (min-width: 321px) {
     .lead__image {
         max-width: 984px;
-        width: 100%;
     }
 }
 
@@ -43,7 +38,19 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .lead__image {
+        height: 580px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__image {
+        height: 615px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead__image {
         height: 480px;
     }

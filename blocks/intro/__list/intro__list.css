@@ -2,8 +2,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 690px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -25,7 +24,19 @@
     }
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 1024px) {
+    .intro__list {
+        width: 690px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .intro__list {
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
     .intro__list {
         max-width: 690px;
     }
