@@ -17,7 +17,6 @@
 @media screen and (max-width: 1279px)  {
     .place {
         grid-template-columns: repeat(2, 448px);
-        grid-template-rows: repeat(2, min-content);
         gap: 32px;
 
     }
@@ -26,7 +25,6 @@
 @media screen and (max-width: 1023px) {
     .place {
         grid-template-columns: repeat(2, 334px);
-        grid-template-rows: repeat(2, min-content);
         gap: 28px;
     }
 }
