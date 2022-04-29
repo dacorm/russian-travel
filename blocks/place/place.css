@@ -28,7 +28,6 @@
         grid-template-columns: repeat(2, 334px);
         grid-template-rows: repeat(2, min-content);
         gap: 28px;
-        padding-left: 24px;
     }
 }
 
@@ -56,6 +55,10 @@
     .place {
         padding-top: 80px;
         grid-column-gap: 40px;
+    }
+
+    .place:first-of-type {
+        padding-top: 0;
     }
 }
 

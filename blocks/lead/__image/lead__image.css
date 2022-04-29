@@ -2,7 +2,6 @@
     max-width: 984px;
     width: 100%;
     object-fit: cover;
-    margin: 64px 0 0 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -16,13 +15,14 @@
     .lead__image {
         max-width: 320px;
         height: 200px;
-        margin: 0;
+        margin: 40px 0 0 0;
     }
 }
 
 @media screen and (min-width: 321px) {
     .lead__image {
         max-width: 984px;
+
     }
 }
 
@@ -41,17 +41,21 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead__image {
         height: 580px;
+        margin: 56px 0 0 0;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .lead__image {
         height: 615px;
+        margin: 64px 0 0 0;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead__image {
+        width: 100%;
         height: 480px;
+        margin: 56px 0 0 0;
     }
 }

@@ -21,6 +21,10 @@
         max-width: 352px;
         font-size: 16px;
     }
+
+    .place__paragraph:last-of-type {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 767px) {
