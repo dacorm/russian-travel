@@ -9,23 +9,26 @@
 
 .place {
     display: grid;
-    grid-template-columns: repeat(2, 472px);
+    grid-template-columns: minmax(440px, 460px) 1fr;
     grid-template-rows: repeat(2, min-content);
     gap: 40px;
 }
 
-@media screen and (max-width: 1279px)  {
+@media screen and (min-width: 1279px)  {
     .place {
-        grid-template-columns: repeat(2, 448px);
-        gap: 32px;
+        grid-template-columns: 460px 1fr;
+    }
+}
 
+@media screen and (min-width: 1024px) and (max-width: 1279px)  {
+    .place {
+        grid-template-columns: 440px 1fr;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .place {
-        grid-template-columns: repeat(2, 334px);
-        gap: 28px;
+        grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
     }
 }
 

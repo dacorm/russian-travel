@@ -27,15 +27,16 @@
 
 @media screen and (max-width: 767px) {
     .photo-grid {
-        grid-template-columns: repeat(1, minmax(min-content, max-content));
-        grid-template-rows: repeat(auto-fit, 216px);
+        grid-template-rows: repeat(2, min-content);
         margin-left: 16px;
         margin-right: 16px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 500px) {
     .photo-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, min-content);
         margin-top: 64px;
     }
 }

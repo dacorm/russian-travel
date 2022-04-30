@@ -4,9 +4,3 @@
     justify-content: end;
     margin: 0;
 }
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-    .place__website {
-        margin: 0 auto;
-    }
-}
