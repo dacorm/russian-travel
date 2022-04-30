@@ -10,20 +10,6 @@
     margin: 0 0 33px 0;
 }
 
-@media screen and (max-width: 1023px) {
-    .intro__text {
-        margin: 0 24px 33px 24px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .intro__text {
-        max-width: 288px;
-        width: 100%;
-        margin: 0 0 34px 0;
-    }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro__text {
         max-width: 720px;
@@ -35,5 +21,6 @@
     .intro__text {
         max-width: 690px;
         width: fit-content;
+        margin: 0 0 34px 0;
     }
 }
