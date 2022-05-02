@@ -4,34 +4,21 @@
     align-items: center;
     width: calc(100% - 148px * 2);
     margin: 0;
-    padding-top: 56px;
-    padding-left: 148px;
-    padding-right: 148px;
+    padding: 56px 148px 0 148px;
 }
-
-/* @media screen and (max-width: 1024px) {
-    .lead {
-        max-width: 928px;
-        padding-top: 48px;
-    }
-} */
 
 @media screen and (max-width: 1279px) {
     .lead {
         width: calc(100% - 48px * 2);
-        padding-top: 54px;
-        padding-left: 48px;
-        padding-right: 48px;
+        padding: 54px 48px 0 48px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .lead {
         width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 48px;
         margin: 0;
+        padding: 48px 0 0 0;
     }
 }
 

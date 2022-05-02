@@ -29,10 +29,6 @@
         grid-column-gap: 32px;
         grid-row-gap: 48px;
     }
-
-    .place:first-of-type {
-        padding-top: 0;
-    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -41,10 +37,6 @@
         padding-top: 72px;
         grid-column-gap: 28px;
         grid-row-gap: 48px;
-    }
-
-    .place:first-of-type {
-        padding-top: 0;
     }
 }
 
@@ -56,9 +48,5 @@
         padding-left: 0;
         padding-top: 50px;
         grid-column-gap: 32px;
-    }
-
-    .place:first-of-type {
-        padding-top: 0;
     }
 }
