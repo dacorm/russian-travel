@@ -10,7 +10,7 @@
 @media screen and (max-width: 1279px) {
     .lead {
         width: calc(100% - 48px * 2);
-        padding: 54px 48px 0 48px;
+        padding: 48px 48px 0 48px;
     }
 }
 
@@ -25,6 +25,5 @@
 @media screen and (max-width: 767px) {
     .lead {
         max-width: 928px;
-        padding: 48px 0 0 0;
     }
 }
