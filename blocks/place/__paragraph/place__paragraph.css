@@ -28,14 +28,6 @@
 
 @media screen and (max-width: 767px) {
     .place__paragraph {
-        max-width: 288px;
-        margin-left: 16px;
-        margin-right: 16px;
-    }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-    .place__paragraph {
         max-width: 484px;
         width: 100%;
         margin: 0 auto 26px auto;

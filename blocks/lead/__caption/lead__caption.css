@@ -9,6 +9,7 @@
     color: #FFFFFF;
     white-space: nowrap;
     margin: 8px 0 0 0;
+    align-self: flex-start;
 }
 
 @media screen and (max-width: 1023px) {
