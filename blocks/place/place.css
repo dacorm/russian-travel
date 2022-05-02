@@ -1,11 +1,3 @@
-/* .place {
-    display: flex;
-    padding-top: 80px;
-}
-
-.place:first-of-type {
-    padding-top: 0;
-} */
 
 .place {
     display: grid;
