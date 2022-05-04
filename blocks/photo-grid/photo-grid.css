@@ -5,7 +5,6 @@
     grid-template-rows: repeat(auto-fit, 1fr);
     gap: 16px;
     margin: 92px 48px 0 48px;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 1279px) {

@@ -28,7 +28,6 @@
         grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
         padding-top: 72px;
         grid-column-gap: 28px;
-        grid-row-gap: 48px;
     }
 }
 
@@ -39,6 +38,6 @@
         grid-template-rows: 1fr;
         padding-left: 0;
         padding-top: 50px;
-        grid-column-gap: 32px;
+        grid-row-gap: 32px;
     }
 }
